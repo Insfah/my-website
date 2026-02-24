@@ -1,0 +1,128 @@
+<!DOCTYPE html> <!-- لتعليم المتصفح اصدار html-->
+<html>
+  <head> <!-- لتخزين كل الميتا داتا و البيانات عن الصفحه-->
+    <meta charset="UTF-8"/> <!-- لترميز النصوص بطريقه صحيحه-->
+    <meta name="description" content="This Is Store Games"/> <!-- وصف الصفحه لمحركات البحث-->
+    <meta http-equiv="refresh" content="5"> <!-- تعمل تحديث للصفحه كل خمس ثواني-->
+    <title>Kali Store</title> <!-- عنوان الصفحه-->
+    <link rel="stylesheet" href="style.css">
+    <scrtipt src="script.js"></scrtipt>
+  </head>
+  <body> <!--المحتوى اللي المستخدم بيشوفه وبيتفاعل معاه-->
+
+    <!--
+    Formatting elements = عناصر تنسيق
+    b = Bold
+    strone = Bold بس لمعنى مهم
+    i = italic
+    em = Italic بس لمعنى مهم او مؤكد
+    u = Underline
+    ins = Inserted Text بس لمعنى ان تم اضافته حديثا في الصفحه زي منتج جديد
+    mark = marked text لوضع الضوء على نص معين
+    del = deleted text لوضع خط في منتصف النص ك تم حذفه
+    small = small لجعل النص صغير
+    -->
+
+    <h1>Kali Store</h1> <!--h = heading او عنوان-->
+      <p>Welcome To Our Store, please check Our headings</p> <!--p = paragraph او الفقره او المحتوى او موضوع-->
+
+    <h2>Souls Games</h2>
+      <h3>Souls</h3>
+        <p>Dark Souls, Elden RIng, Bloodborne, Sekiro, Demon Souls</p>
+        <p>the souls games is made by <b>FromSoftWare</b></p>
+
+      <h3>Souls Like</h3>
+        <p> <i>WuKung,</i> Nioh, Lise Of P, WuChang, Hollow knight</p>
+        <p>The soulslike games that <mark>takes ideas from souls games or FromSoftWare</mark></p>
+
+    <h2>MetroidVania Games</h2>
+      <p>Hollow Knight, Uri, Blasphemous, <ins>SilkSong</ins></p>
+      <p>A Metroidvania, also known as Search Action (探索型アクション, Tansaku-Gata Akushon) in Japan,[1] is a sub-genre of action-adventure games focused on nonlinear exploration and guided progression with a need to acquire key items to enter certain areas. The term is a portmanteau of the names of the video game series Metroid and Castlevania,
+          based on the template from Metroid (1986),
+          Castlevania II: Simon's Quest (1987), Super Metroid (1994), and Castlevania: <a href="https://en.wikipedia.org/wiki/Metroidvania#Terminology" target="_blank" title="MetroidVania description">More...</a></p>
+    
+    <h2>RPG Games</h2>
+      <p>Elden Ring, The Wicher 3, God Of War</p>
+      <p>Play Idea games</p>
+
+    <h2>Sources</h2>
+    <!--a = anchor او مرساه و هدفها هو عمل رابط لصفحه احرى او داحل الصفحه-->
+      <p><a href="https://www.avsoftlab.com/souls-games-in-order/" target="_blank" title="Go To avsoftlab">Souls, </a>
+        <a href="https://en.wikipedia.org/wiki/Soulslike" target="_blank" title="Go To wikipedia">SoulsLike, </a>
+        <a href="https://en.wikipedia.org/wiki/Metroidvania#Terminology" target="_blank" title="GO To wikipedia">MetroidVania, </a>
+        <a href="https://en.wikipedia.org/wiki/Role-playing_game" target="_blank" title="Go to wikipedia">RPG games.</a>
+      </p>
+
+      <!--img = Image لوضع صوره داخل المتصفح-->
+      <img src="ds3.jpg" alt="dark souls 3" height="50" width="100">
+      <img src="OIP (1).webp" alt="Hollow KNight" height="50" width="100">
+      <img src="OIP.webp" alt="the Wicher 3" height="50" width="100">
+
+    <h2>Prices</h2>
+      <p>The Prices Of games lists or table here</p>
+
+      <!--lists = قوائم
+        ul = unorderd list هي قائمه غير مرتبه
+        ol = orderd list قائمه مرتبه
+        li = list item عنصر داخل القائمه
+        dl = description list = قائمه وصفيه
+        dt = description term = عنصر وصفي
+        dd = description of descripton term وصف للعنصر الوصفي 
+      -->
+
+      <ol start="1" type="I">
+        <caption>Prices Lists</caption>
+        <li>souls</li>
+        <dd>from 10$ to 50$</dd>
+        <li>MetroidVania</li>
+        <dd>From 15% to 30$</dd>
+        <li>rpg</li>
+        <dd>From 5$ to <del>60$</del> 70$</dd>
+      </ol>
+
+      <!--table = جدول
+        caption = وصف الجدول
+        thead = table head رأس الجدول 
+        tbocy = table body محتوى الجدول
+        tfoot = table foot اسفل الجدول
+        tr = table row صف في الجدول
+        td = table data عنصر في صف في الجدول
+        th = td لكن في رأس الجدول
+        colspan = خاصيه مهمه
+      -->
+
+      <table border="1">
+        <caption>Prices Table</caption>
+
+        <thead>
+          <tr>
+            <th>games</th>
+            <th>Souls</th>
+            <th>MetroidVania</th>
+            <th>RPG</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Prices</td>
+            <td>10to50</td>
+            <td>15to30</td>
+            <td>5to70</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td>Example</td>
+            <td>Dark Souls 3</td>
+            <td>Hollow Knight</td>
+            <td>The Wicher 3</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    <p><small> content <a href="mailto:nawarromar2@gmail.com">mail</a> <a href="tel:+201289157903">phone</a> </small></p>
+
+  </body>
+</html>
